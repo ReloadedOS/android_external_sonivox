@@ -1247,7 +1247,6 @@ static EAS_RESULT EAS_ParseEvents (S_EAS_DATA *pEASData, EAS_HANDLE pStream, EAS
     EAS_BOOL done;
     EAS_INT yieldCount = YIELD_EVENT_COUNT;
     EAS_U32 time = 0;
-
     // This constant is the maximum number of events that can be processed in a single time slice.
     // A typical ringtone will contain a few events per time slice.
     // Extremely dense ringtones might go up to 50 events.
